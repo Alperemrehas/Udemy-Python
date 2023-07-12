@@ -17,3 +17,9 @@ print(commuter)
 
 learner = vehicles.get("er5")
 print(learner)
+
+for key in vehicles:
+    print(key, vehicles[key], sep=", ")
+
+for key, value in vehicles.items():
+    print(key, value, sep=", ")
